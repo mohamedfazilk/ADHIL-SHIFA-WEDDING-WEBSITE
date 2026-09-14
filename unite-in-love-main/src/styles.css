@@ -183,3 +183,23 @@ html { scroll-behavior: smooth; }
   html { scroll-behavior: auto; }
   .invitation-rise, .portrait-settle { animation: none; }
 }
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.2; transform: scale(0.7) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.4) rotate(45deg); filter: drop-shadow(0 0 8px rgba(254, 240, 138, 0.9)); }
+}
+
+@keyframes float-glitter {
+  0% { transform: translateY(0px) scale(0.85); opacity: 0.2; }
+  50% { transform: translateY(-14px) scale(1.25); opacity: 0.95; }
+  100% { transform: translateY(0px) scale(0.85); opacity: 0.2; }
+}
+
+.animate-sparkle {
+  animation: sparkle 3.2s ease-in-out infinite;
+}
+
+.animate-float-glitter {
+  animation: float-glitter 4.5s ease-in-out infinite;
+}
+
