@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Deep Maroon Base -->
+  <rect width="64" height="64" rx="16" fill="#3b0a0e"/>
+  
+  <!-- Subtle Inner Gold Border -->
+  <rect x="3" y="3" width="58" height="58" rx="13" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.6"/>
+  
+  <!-- Stylized Elegant Heart Contour -->
+  <path d="M32 48 C16 36, 12 26, 12 20 C12 14, 17 10, 23 10 C27.5 10, 30.5 13, 32 15 C33.5 13, 36.5 10, 41 10 C47 10, 52 14, 52 20 C52 26, 48 36, 32 48 Z" 
+        fill="none" 
+        stroke="#fef08a" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+        
+  <!-- Gold Rings / Monogram 'A & S' -->
+  <text x="32" y="27" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="bold" fill="#fef08a" text-anchor="middle" dominant-baseline="middle">A&amp;S</text>
+</svg>
