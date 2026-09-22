@@ -29,7 +29,7 @@ function Countdown() {
     return () => window.clearInterval(timer);
   }, []);
 
-  const days = Math.floor(remaining / 86_400_000);
+  const days = Math.ceil(remaining / 86_400_000);
   const hours = Math.floor((remaining / 3_600_000) % 24);
   const minutes = Math.floor((remaining / 60_000) % 60);
   const seconds = Math.floor((remaining / 1_000) % 60);
